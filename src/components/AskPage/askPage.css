@@ -1,10 +1,9 @@
 .Ask {
   text-align: center;
-  background-image: url("../../images/love.webp");
 }
 
 .Ask-header {
-  background-color: #282c34;
+  background-image: url("../../images/love.webp");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -51,4 +50,5 @@
 
 .text-container {
   padding: 10px;
+  color: #151b54;
 }
