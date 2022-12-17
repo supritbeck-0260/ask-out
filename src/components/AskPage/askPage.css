@@ -1,9 +1,9 @@
-.App {
+.Ask {
   text-align: center;
-  background-image: url("./images/love.webp");
+  background-image: url("../../images/love.webp");
 }
 
-.App-header {
+.Ask-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -14,27 +14,27 @@
   color: white;
 }
 
-.App-header .image {
+.Ask-header .image {
   width: 40vw;
   height: 40vh;
   border-radius: 10px;
 }
 @media only screen and (max-width: 480px) {
-  .App-header .image {
+  .Ask-header .image {
     width: 90vw;
     height: 40vh;
     border-radius: 10px;
   }
 }
 @media only screen and (max-width: 768px) and (min-width: 480px) {
-  .App-header .image {
+  .Ask-header .image {
     width: 60vw;
     height: 40vh;
     border-radius: 10px;
   }
 }
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
-  .App-header .image {
+  .Ask-header .image {
     width: 50vw;
     height: 40vh;
     border-radius: 10px;
@@ -45,6 +45,10 @@
   text-align: center;
   font-weight: bold;
 }
+.header-text.name {
+  text-transform: capitalize;
+}
+
 .text-container {
   padding: 10px;
 }

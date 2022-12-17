@@ -1,0 +1,14 @@
+.button {
+  padding: 10px;
+  width: 100px;
+}
+.button-move {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* .button-move:hover {
+  left: 0;
+  transform: translate(10%, -50%);
+} */
